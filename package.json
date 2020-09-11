@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TypeScript basic project template",
   "engines": {
-    "node": ">= 12 <15"
+    "node": ">= 10 <15"
   },
   "main": "dist/index.js",
   "scripts": {
