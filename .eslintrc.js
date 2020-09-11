@@ -30,6 +30,13 @@ module.exports = {
     'prettier',
     '@typescript-eslint',
   ],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
+      }
+    },
+  },
   rules: {
     'prettier/prettier': [0,
       {
@@ -84,6 +91,16 @@ module.exports = {
     'import/no-named-as-default-member': 0,
     'import/namespace': 0,
     'import/named': 0,
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        'ts': 'never',
+        'tsx': 'never',
+        'js': 'never',
+        'jsx': 'never'
+      }
+    ],
     '@typescript-eslint/indent': 0,
     '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/explicit-function-return-type': 0,
