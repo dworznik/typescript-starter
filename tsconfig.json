@@ -3,7 +3,7 @@
     "baseUrl": "./",
     "paths": {
       "src/*": ["src/*"],
-      "tests/*": ["tests/*"]
+      "__tests__/*": ["__tests__/*"]
     },
     "target": "es5",
     "module": "commonjs",
@@ -19,6 +19,7 @@
     "rootDir": "src",
     "strict": true,
     "noImplicitAny": true,
+    "noImplicitThis": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "noUnusedLocals": true,
