@@ -1,7 +1,7 @@
 {
-  "name": "@dworznik/typescript-basic-starter",
+  "name": "@dworznik/typescript-starter",
   "version": "1.0.0",
-  "description": "TypeScript basic project template",
+  "description": "TypeScript project template",
   "engines": {
     "node": ">= 10 <15"
   },
@@ -12,7 +12,7 @@
     "build:watch": "tsc -w -p tsconfig.release.json",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "lint": "eslint src tests --ext .ts"
+    "lint": "eslint src __tests__ --ext .ts"
   },
   "keywords": [
     "typescript",
@@ -32,6 +32,11 @@
   },
   "author": "Patryk Dwórznik",
   "license": "MIT",
+  "homepage": "https://github.com/dworznik/typescript-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dworznik/typescript-starter.git"
+  },
   "devDependencies": {
     "@types/isomorphic-fetch": "^0.0.35",
     "@types/jest": "^26.0.13",
@@ -44,10 +49,10 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "fetch-mock-jest": "^1.3.0",
     "husky": "^4.3.0",
     "jest": "^26.4.2",
     "jest-extended": "^0.11.5",
-    "jest-fetch-mock": "^3.0.3",
     "lint-staged": "^10.3.0",
     "prettier": "^2.1.1",
     "ts-jest": "^26.3.0",

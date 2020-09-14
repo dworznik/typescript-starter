@@ -1,10 +1,11 @@
 module.exports = {
+  automock: false,
   setupFiles: [
-    './setupJest.js'
+    './jest.setup.js'
   ],
+  testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)'],
   moduleNameMapper: {
-    'src/(.*)': '<rootDir>/src/$1',
-    '__tests__/(.*)': '<rootDir>/__tests__/$1',
+    'src/(.*)': '<rootDir>/src/$1'
   },
   preset: 'ts-jest',
   testEnvironment: 'node',
