@@ -1,5 +1,5 @@
 import { apiRun, run } from 'src/index';
-import fetch from './helpers/fetch';
+import fetch from '@helpers/fetch';
 
 test('run', () => {
   expect(run()).toEqual(true);

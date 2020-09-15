@@ -1,4 +1,9 @@
 module.exports = {
+  globals: {
+    'ts-jest': {
+      compiler: 'ttypescript',
+    },
+  },
   automock: false,
   setupFiles: [
     './jest.setup.js'

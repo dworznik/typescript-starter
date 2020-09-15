@@ -1,8 +1,8 @@
-import fetch from 'isomorphic-fetch';
+import { apiCall } from 'src/api';
 
 export const run = (): boolean => true;
 
 export const apiRun = async (url: string): Promise<any> => {
-  const ret = await fetch(url);
+  const ret = await apiCall(url);
   return ret.json();
 };
