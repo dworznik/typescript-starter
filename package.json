@@ -1,11 +1,14 @@
 {
   "name": "@dworznik/typescript-starter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TypeScript project template",
   "engines": {
     "node": ">= 10 <15"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rimraf coverage dist tmp",
     "build": "ttsc -p tsconfig.release.json",
@@ -63,6 +66,7 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
+    "date-fns": "^2.16.1",
     "isomorphic-fetch": "^2.2.1"
   }
 }
