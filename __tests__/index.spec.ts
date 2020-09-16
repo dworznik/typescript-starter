@@ -1,4 +1,4 @@
-import { apiRun, run } from 'src/index';
+import { apiRun, run } from 'index';
 import fetch from '@helpers/fetch';
 import { readdirSync } from 'fs';
 

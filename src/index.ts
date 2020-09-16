@@ -1,4 +1,4 @@
-import { apiCall } from 'src/api';
+import { apiCall } from 'api';
 
 export const run = (): boolean => true;
 

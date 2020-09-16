@@ -1,6 +1,6 @@
 {
   "name": "@dworznik/typescript-starter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "TypeScript project template",
   "engines": {
     "node": ">= 10 <15"
@@ -41,11 +41,11 @@
     "url": "https://github.com/dworznik/typescript-starter.git"
   },
   "devDependencies": {
-    "@types/isomorphic-fetch": "^0.0.35",
     "@types/jest": "^26.0.13",
     "@types/node": "^14.10.1",
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",
+    "@zerollup/ts-transform-paths": "^1.7.18",
     "eslint": "^7.8.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
@@ -60,13 +60,12 @@
     "prettier": "^2.1.1",
     "ts-jest": "^26.3.0",
     "ts-node": "^9.0.0",
-    "ts-transformer-imports": "^0.4.3",
     "tsutils": "^3.17.1",
     "ttypescript": "^1.5.12",
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "date-fns": "^2.16.1",
-    "isomorphic-fetch": "^2.2.1"
+    "cross-fetch": "^3.0.6",
+    "date-fns": "^2.16.1"
   }
 }
