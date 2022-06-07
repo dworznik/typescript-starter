@@ -32,3 +32,4 @@ node_modules/
 .cache
 .serverless/
 .vscode-test
+.husky/
